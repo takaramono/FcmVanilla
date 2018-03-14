@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "332632714546",
+    "firebase_url": "https://fcm-cn-test.firebaseio.com",
+    "project_id": "fcm-cn-test",
+    "storage_bucket": "fcm-cn-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332632714546:android:67bb9061a6b324ca",
+        "android_client_info": {
+          "package_name": "vanilla.fcm.test.com.fcmvanilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332632714546-o5bp9ph837l4rc1p4kv0c2pi2u7jtvae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4UiT0icV9cOqV76apuQHaNRVF0DSWvmQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

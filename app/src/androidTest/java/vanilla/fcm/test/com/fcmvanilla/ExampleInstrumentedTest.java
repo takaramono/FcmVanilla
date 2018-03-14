@@ -24,4 +24,12 @@ public class ExampleInstrumentedTest {
 
     assertEquals("vanilla.fcm.test.com.fcmvanilla", appContext.getPackageName());
   }
+
+  @Test
+  public void useAppContext_fail() throws Exception {
+    // Context of the app under test.
+    Context appContext = InstrumentationRegistry.getTargetContext();
+
+    assertEquals("vanilla.fcm.test.com.fcmvanillaZ", appContext.getPackageName());
+  }
 }

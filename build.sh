@@ -28,7 +28,7 @@ fi
 #cp mock-google-services.json storage/app/google-services.json
 
 # Install preview deps
-${ANDROID_HOME}/tools/bin/sdkmanager --channel=3 \
+echo y | ${ANDROID_HOME}/tools/bin/sdkmanager --channel=3 \
   "tools" "platform-tools" "build-tools;26.0.0-rc2" "platforms;android-26"
 
 # Build

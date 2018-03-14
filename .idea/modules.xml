@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FCMVanilla.iml" filepath="$PROJECT_DIR$/FCMVanilla.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FcmVanilla.iml" filepath="$PROJECT_DIR$/FcmVanilla.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

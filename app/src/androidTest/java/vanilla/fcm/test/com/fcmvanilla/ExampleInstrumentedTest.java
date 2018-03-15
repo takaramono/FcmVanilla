@@ -35,14 +35,14 @@ public class ExampleInstrumentedTest {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("vanilla.fcm.test.com.fcmvanillaZ", appContext.getPackageName());
+    assertEquals("vanilla.fcm.test.com.fcmvanilla", appContext.getPackageName());
   }
 
   private static final int waitForRegisterTime = 30 * 1000;
   private static final int waitForSyncTime = 10;
   private static final int waitForReceiveTime = 15 * 1000;
 
-  //@Test
+  @Test
   public void baseTest() throws Exception {
     // 启动程序
     {
